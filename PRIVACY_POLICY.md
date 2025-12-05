@@ -1,6 +1,6 @@
 # Privacy Policy for Scripture Quest
 
-**Last Updated:** [DATE - Update this when you publish]
+**Last Updated:** 2025-12-05
 
 ## Introduction
 
@@ -96,7 +96,7 @@ You have the following rights regarding your information:
 5. **Push Notifications**: Opt-out of push notifications through device or App settings
 6. **Data Export**: Request a copy of your data
 
-To exercise these rights, contact us at [YOUR_EMAIL_ADDRESS].
+To exercise these rights, contact us at marveds2@gmail.com.
 
 ## Children's Privacy
 
@@ -138,9 +138,9 @@ If you are a California resident, you have additional rights under the Californi
 
 If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
-**Email:** [YOUR_EMAIL_ADDRESS]  
+**Email:** marveds2@gmail.com  
 **App Name:** Scripture Quest  
-**Developer:** [YOUR_NAME_OR_COMPANY_NAME]
+**Developer:** Marvin Edwards
 
 ## Consent
 
