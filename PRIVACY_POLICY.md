@@ -139,7 +139,7 @@ If you are a California resident, you have additional rights under the Californi
 If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
 **Email:** marveds2@gmail.com  
-**App Name:** Scripture Quest  
+**App Name:** Scripture Quest 
 **Developer:** Marvin Edwards
 
 ## Consent
