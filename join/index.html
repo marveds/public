@@ -50,6 +50,9 @@
 <body>
     <h1>🎮 Scripture Quest</h1>
     <p>You've been invited to join a game!</p>
+    <div id="join-code">------</div>
+    <a id="open-app-btn" href="scripture-quest://join/">Open App</a>
+
     <div class="code" id="joinCode">------</div>
     <a href="#" class="btn" id="openApp">Open App</a>
     <div class="instructions">
@@ -61,19 +64,32 @@
         </ol>
     </div>
     <script>
-        // Extract join code from URL path: /join/ABC123
-        const path = window.location.pathname;
-        const match = path.match(/\/join\/([A-Z0-9]{6})/i);
-        const code = match ? match[1].toUpperCase() : null;
+        // Extract join code from URL path: /join/#ABC123
+        // const path = window.location.pathname;
+        // const match = path.match(/\/join\/([A-Z0-9]{6})/i);
+        // const code = match ? match[1].toUpperCase() : null;
 
-        if (code) {
-            document.getElementById('joinCode').textContent = code;
-            const deepLink = 'scripture-quest://join/' + code;
-            document.getElementById('openApp').href = deepLink;
+        // Get join code from URL hash
+        const joinCode = window.location.hash.replace('#', '');
 
-            // Try to open app automatically
+        if (joinCode && joinCode.length === 6) {
+            // Display the code in the dashed area
+            document.getElementById('join-code').textContent = joinCode;
+            const deepLink = 'scripture-quest://join/' + joinCode;
+
+            // Update the "Open App" button to use the deep link
+            document.getElementById('open-app-btn').href = deepLink;
             setTimeout(() => { window.location.href = deepLink; }, 500);
         }
+
+        // if (code) {
+        //     document.getElementById('joinCode').textContent = code;
+        //     const deepLink = 'scripture-quest://join/' + code;
+        //     document.getElementById('openApp').href = deepLink;
+
+        //     // Try to open app automatically
+        //     setTimeout(() => { window.location.href = deepLink; }, 500);
+        // }
     </script>
 </body>
 
