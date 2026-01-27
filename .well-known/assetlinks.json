@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.marveds.scripturescavengerhunt",
+      "sha256_cert_fingerprints": [
+        "33:E9:35:BB:67:B3:E3:B6:A0:78:71:3A:2C:FF:61:6E:F0:CE:75:AB:05:60:D9:F1:0D:22:D7:94:4E:7F:61:23"
+      ]
+    }
+  }
+]
